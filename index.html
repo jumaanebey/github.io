@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
       <meta charset="UTF-8">
@@ -7,7 +7,7 @@
       <title>My Property Management - Stress-Free Property
   Management</title>
       <script src="https://cdn.tailwindcss.com"></script>
-  </head> 
+  </head>
   <body class="bg-gray-50">
       <!-- Header -->
       <header class="bg-white shadow-md">
@@ -26,16 +26,16 @@
                       </div>
                   </div>
                   <div class="hidden md:flex space-x-6">
-                      <a href="#" class="text-gray-700 hover:text-blue-600 
+                      <a href="index.html" class="text-blue-600 
   font-medium">Home</a>
                       <a href="#" class="text-gray-700 hover:text-blue-600 
   font-medium">About</a>
                       <a href="#" class="text-gray-700 hover:text-blue-600 
   font-medium">Services</a>
-                      <a href="#" class="text-gray-700 hover:text-blue-600 
-  font-medium">Properties</a>
-                      <a href="#" class="bg-blue-600 text-white px-6 py-2 
-  rounded-full hover:bg-blue-700 font-medium">Contact</a>
+                      <a href="properties.html" class="text-gray-700 
+  hover:text-blue-600 font-medium">Properties</a>
+                      <a href="#contact" class="bg-blue-600 text-white px-6
+   py-2 rounded-full hover:bg-blue-700 font-medium">Contact</a>
                   </div>
               </div>
           </nav>
@@ -60,9 +60,9 @@
   transition-colors">
                           Get Free Consultation
                       </a>
-                      <a href="#properties" class="border-2 border-white 
-  text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-white 
-  hover:text-blue-600 transition-colors">
+                      <a href="properties.html" class="border-2 
+  border-white text-white px-8 py-4 rounded-full text-lg font-semibold 
+  hover:bg-white hover:text-blue-600 transition-colors">
                           View Properties
                       </a>
                   </div>
@@ -128,6 +128,91 @@
           </div>
       </section>
 
+      <!-- Featured Properties Preview -->
+      <section class="py-20 bg-gray-100">
+          <div class="container mx-auto px-4">
+              <div class="text-center mb-16">
+                  <h2 class="text-4xl font-bold text-gray-900 
+  mb-4">Featured Properties</h2>
+                  <p class="text-xl text-gray-600">Check out some of our
+  premium rental properties</p>
+              </div>
+
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                  <div class="bg-white rounded-lg shadow-md 
+  overflow-hidden">
+                      <img src="https://images.unsplash.com/photo-152270832
+  3590-d24dbb6b0267?w=400&h=300&fit=crop" alt="Modern Downtown Apartment" 
+  class="w-full h-48 object-cover">
+                      <div class="p-6">
+                          <h3 class="text-xl font-bold text-gray-900 
+  mb-2">Modern Downtown Apartment</h3>
+                          <p class="text-gray-600 mb-3">123 Main Street,
+  Downtown</p>
+                          <div class="text-2xl font-bold text-blue-600 
+  mb-4">$2,500/month</div>
+                          <div class="flex items-center space-x-4 text-sm 
+  text-gray-600">
+                              <span>🛏️ 2 bed</span>
+                              <span>🚿 2 bath</span>
+                              <span>📐 1,100 sqft</span>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="bg-white rounded-lg shadow-md 
+  overflow-hidden">
+                      <img src="https://images.unsplash.com/photo-156860511
+  4967-8130f3a36994?w=400&h=300&fit=crop" alt="Spacious Family Home" 
+  class="w-full h-48 object-cover">
+                      <div class="p-6">
+                          <h3 class="text-xl font-bold text-gray-900 
+  mb-2">Spacious Family Home</h3>
+                          <p class="text-gray-600 mb-3">456 Oak Avenue,
+  Riverside</p>
+                          <div class="text-2xl font-bold text-blue-600 
+  mb-4">$3,200/month</div>
+                          <div class="flex items-center space-x-4 text-sm 
+  text-gray-600">
+                              <span>🛏️ 4 bed</span>
+                              <span>🚿 3 bath</span>
+                              <span>📐 2,400 sqft</span>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="bg-white rounded-lg shadow-md 
+  overflow-hidden">
+                      <img src="https://images.unsplash.com/photo-157012947
+  7492-45c003edd2be?w=400&h=300&fit=crop" alt="Luxury Waterfront Condo" 
+  class="w-full h-48 object-cover">
+                      <div class="p-6">
+                          <h3 class="text-xl font-bold text-gray-900 
+  mb-2">Luxury Waterfront Condo</h3>
+                          <p class="text-gray-600 mb-3">321 Harbor View,
+  Marina District</p>
+                          <div class="text-2xl font-bold text-blue-600 
+  mb-4">$4,500/month</div>
+                          <div class="flex items-center space-x-4 text-sm 
+  text-gray-600">
+                              <span>🛏️ 3 bed</span>
+                              <span>🚿 2 bath</span>
+                              <span>📐 1,800 sqft</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="text-center">
+                  <a href="properties.html" class="bg-blue-600 text-white 
+  px-8 py-4 rounded-full text-lg font-semibold hover:bg-blue-700 
+  transition-colors">
+                      View All Properties
+                  </a>
+              </div>
+          </div>
+      </section>
+
       <!-- Contact Section -->
       <section id="contact" class="py-20 bg-blue-600 text-white">
           <div class="container mx-auto px-4 text-center">
@@ -161,8 +246,8 @@
   Property Management</div>
                   </div>
               </div>
-              <p class="text-gray-400 mb-4">Professional property
-  management services you can trust.</p>
+              <p class="text-gray-400 mb-4">Professional Property
+  Management Services you can trust.</p>
               <p class="text-gray-500 text-sm">&copy; 2024 My Property
   Management. All rights reserved.</p>
           </div>
