@@ -6,8 +6,7 @@
 
   ## 🌐 Live Website
 
-  Visit our website: [https://jumaanebey.github.io/github.io/](https://juma
-  anebey.github.io/github.io/)
+  Visit our website: [https://jumaanebey.github.io/github.io/](https://jumaanebey.github.io/github.io/)
 
   ## 🏠 About
 
