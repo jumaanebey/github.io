@@ -1,0 +1,51 @@
+ id: 1
+    title: "Modern Downtown Apartment"
+    address: "123 Main Street, Downtown, City 12345"
+    rent: 2500
+    bedrooms: 2
+    bathrooms: 2
+    sqft: 1100
+    city: "Downtown"
+    image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=
+  400&h=300&fit=crop"
+    featured: true
+    available: true
+
+  - id: 2
+    title: "Spacious Family Home"
+    address: "456 Oak Avenue, Riverside, City 12346"
+    rent: 3200
+    bedrooms: 4
+    bathrooms: 3
+    sqft: 2400
+    city: "Riverside"
+    image: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=
+  400&h=300&fit=crop"
+    featured: true
+    available: true
+
+  - id: 3
+    title: "Luxury Waterfront Condo"
+    address: "321 Harbor View, Marina District, City 12348"
+    rent: 4500
+    bedrooms: 3
+    bathrooms: 2
+    sqft: 1800
+    city: "Marina District"
+    image: "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=
+  400&h=300&fit=crop"
+    featured: true
+    available: true
+
+  - id: 4
+    title: "Cozy Studio Loft"
+    address: "789 Art District, Creative Quarter, City 12347"
+    rent: 1800
+    bedrooms: 1
+    bathrooms: 1
+    sqft: 650
+    city: "Creative Quarter"
+    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=400
+  &h=300&fit=crop"
+    featured: false
+    available: true
