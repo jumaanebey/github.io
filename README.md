@@ -59,7 +59,7 @@
 
   📧 Contact
 
-  - Phone: (555) 123-4567
+  - Phone: (916) 402-7707
   - Website: https://jumaanebey.github.io/github.io/
 
   📄 License
